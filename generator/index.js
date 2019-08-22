@@ -2,7 +2,7 @@
  * @Author: Devin Shi
  * @Email: yutian.shi@definesys.com
  * @Date: 2019-08-11 23:15:16
- * @LastEditTime: 2019-08-22 01:08:30
+ * @LastEditTime: 2019-08-22 18:52:50
  * @LastEditors: Devin Shi
  * @Description: 
  */
@@ -77,6 +77,7 @@ module.exports = (api, options, rootOptions) => {
       'eslint': '^5.8.0',
       'eslint-plugin-vue': '^5.0.0',
       'plop': '^2.3.0',
+      "@vue/cli-plugin-typescript": "^3.11.0",
       'progress-bar-webpack-plugin': '^1.12.1',
       'script-ext-html-webpack-plugin': '^2.1.3',
       "@vue/eslint-config-typescript": "^4.0.0",
