@@ -1,6 +1,6 @@
 {
   "name": "sdf-vue-ts-start",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "结合 vue-cli3 的 preset 搭建基于 git repo 的前端项目模板",
   "main": "./generator/index.js",
   "directories": {
