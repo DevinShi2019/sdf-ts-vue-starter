@@ -2,23 +2,23 @@
  * @Author: Devin Shi
  * @Email: yutian.shi@definesys.com
  * @Date: 2019-08-11 23:15:16
- * @LastEditTime: 2019-08-22 18:52:19
+ * @LastEditTime: 2019-09-11 18:10:33
  * @LastEditors: Devin Shi
  * @Description: 
  */
 import Vue from 'vue';
-import App from './App.vue';
-import router from './router/.invoke/router.js';
-import './components/global';
-import './plugins'
-import './filters';
-import './services';
-import './vendor/ant';
-import store from './store'
-import './registerServiceWorker'
+import App from '@/App.vue';
+import router from '@/router/.invoke/router.js';
+import '@/components/global';
+import '@/plugins'
+import '@/filters';
+import '@/services';
+import '@/vendor/ant';
+import store from '@/store'
+import '@/registerServiceWorker'
 
 <%_ if (options['ui-framework'] === 'ant') { _%>
-import './vendor/ant';
+import '@/vendor/ant';
   <%_ } _%>
 
 /* eslint-disable */
