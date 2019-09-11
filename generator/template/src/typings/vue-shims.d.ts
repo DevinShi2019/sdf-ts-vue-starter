@@ -2,17 +2,12 @@
  * @Author: Devin Shi
  * @Email: yutian.shi@definesys.com
  * @Date: 2019-08-21 10:59:18
- * @LastEditTime: 2019-09-11 18:21:19
+ * @LastEditTime: 2019-09-11 18:54:22
  * @LastEditors: Devin Shi
  * @Description: 
  */
+
 import Vue from 'vue'
-
-declare module '*.vue' {
-  import Vue from 'vue'
-  export default Vue
-}
-
 // 声明全局方法
 declare module 'vue/types/vue' {
   interface Vue {
@@ -37,3 +32,4 @@ declare module 'vue/types/vue' {
     _cookie: any
   }
 }
+
